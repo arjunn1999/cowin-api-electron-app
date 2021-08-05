@@ -1,0 +1,26 @@
+{
+  "name": "cowin-api-electron-app",
+  "version": "1.0.0",
+  "description": "Electron app using cowin api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arjunn1999/cowin-api-electron-app.git"
+  },
+  "author": "Arjun N",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arjunn1999/cowin-api-electron-app/issues"
+  },
+  "homepage": "https://github.com/arjunn1999/cowin-api-electron-app#readme",
+  "devDependencies": {
+    "electron": "^13.1.8"
+  },
+  "dependencies": {
+    "material": "^0.4.3"
+  }
+}

@@ -1,0 +1,2 @@
+const promise = fetch("https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByPin?pincode=641018&date=05-08-2021");
+promise.then((res)=>res.json()).then((res)=>console.log(res.sessions)).catch((msg)=>console.log(msg));
